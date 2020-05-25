@@ -1,9 +1,14 @@
 import React from 'react';
-
+import Header from './pages/components/header/Header';
+import Menu from './pages/components/menu/Menu'
+import Footer from './pages/components/footer/Footer';
 function App() {
   return (
     <div>
-      <h1>Hello word</h1>
+      <Header/>
+      <Menu/>
+
+      <Footer/>
     </div>
   );
 }

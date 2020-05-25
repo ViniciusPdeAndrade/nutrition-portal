@@ -1,5 +1,13 @@
 *{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+body{
+  margin-top: 10px;
+  background-image: url('./images/background.jpg');
+  background-color: rgb(4, 66, 46);
+  background-size: cover;
+  background-repeat: repeat;
 }
