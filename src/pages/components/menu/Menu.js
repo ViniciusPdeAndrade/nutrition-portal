@@ -10,18 +10,26 @@ const Menu = () => {
     const { show, dispatchContainer } = useContext(ShowContext);
 
     const handleIncial = useCallback(() => {
-        dispatchContainer(visibleActions.visibleTue(show))
-    }, [show, dispatchContainer]);
+        dispatchContainer(visibleActions.toViewInicial())
+    }, [dispatchContainer]);
 
-   return (
+    const handleCuriosities = useCallback(() => {
+        dispatchContainer(visibleActions.toViewCuriosity())
+    }, [dispatchContainer]);
+
+    const handleFeeds = useCallback(() => {
+        dispatchContainer(visibleActions.toViewFeeds())
+    }, [dispatchContainer]);
+
+    return (
         <div>
             <div className="menu">
                 <button className="buttons" onClick={handleIncial}>Inicio</button>
-                <button className="buttons">Curiosidades</button>
-                <button className="buttons">Alimentação</button>
+                <button className="buttons" onClick={handleCuriosities}>Curiosidades</button>
+                <button className="buttons" onClick={handleFeeds}>Alimentação</button>
                 <button className="buttons">Receitas</button>
             </div>
-        <Body showMenu= {show}/>
+            <Body showMenu={show} />
         </div>
     );
 }

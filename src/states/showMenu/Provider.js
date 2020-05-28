@@ -4,7 +4,7 @@ import showReducer from './reducer'
 
 
 const Provider = ({ children }) => {
-    const [show, dispatchContainer] = useReducer(showReducer, true);
+    const [show, dispatchContainer] = useReducer(showReducer, {viewInicial: true});
 
     return (
         <ShowContext.Provider value={{ show, dispatchContainer }}>
