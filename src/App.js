@@ -1,15 +1,12 @@
 import React from 'react';
-import Header from './pages/components/header/Header';
-import Menu from './pages/components/menu/Menu'
-import Footer from './pages/components/footer/Footer';
+import ShowProvider from './states/showMenu/Provider';
+import NutritionApp from './pages/nutrition/NutritionApp'
 function App() {
   return (
-    <div>
-      <Header/>
-      <Menu/>
+    <ShowProvider>
+      <NutritionApp/>
+    </ShowProvider>
 
-      <Footer/>
-    </div>
   );
 }
 

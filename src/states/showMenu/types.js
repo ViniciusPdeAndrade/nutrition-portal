@@ -1,0 +1,1 @@
+export const VISIBLE_INICIAL = 'VISIBLE_INICIAL';

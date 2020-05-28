@@ -1,0 +1,12 @@
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 50px 40px 50px 400px;
+    border: none;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(23, 99, 27);
+    opacity: 0.9;
+}

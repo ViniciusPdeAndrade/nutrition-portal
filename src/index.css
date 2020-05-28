@@ -11,3 +11,8 @@ body{
   background-size: cover;
   background-repeat: repeat;
 }
+
+
+*:focus {
+  outline: none;
+}
