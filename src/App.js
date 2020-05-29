@@ -1,7 +1,8 @@
 import React from 'react';
 import ShowProvider from './states/showMenu/Provider';
 import NutritionApp from './pages/nutrition/NutritionApp'
-function App() {
+
+const App = () => {
   return (
     <ShowProvider>
       <NutritionApp/>

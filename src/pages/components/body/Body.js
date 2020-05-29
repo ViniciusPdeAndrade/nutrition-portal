@@ -7,10 +7,11 @@ import styles from './Body.module.css';
 
 const Body = ({ showMenu }) => {
     return (
-        <div>
+        <div className={styles.container}>
             {showMenu.viewInicial && <Inicial />}
             {showMenu.viewCuriosity && <Curiosities />}
             {showMenu.viewFeeds && <Feeds />}
+            
         </div>
     );
 

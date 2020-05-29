@@ -10,6 +10,7 @@ body{
   background-color: rgb(4, 66, 46);
   background-size: cover;
   background-repeat: repeat;
+  overflow-y: scroll;
 }
 
 

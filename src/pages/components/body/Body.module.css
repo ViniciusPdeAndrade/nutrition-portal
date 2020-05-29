@@ -1,12 +1,12 @@
-.body {
-    width: 500px;
-    height: 400px;
-    margin: 50px 40px 50px 400px;
+.container {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: calc(100vh - 170px);
     border: none;
-    border-radius: 10px;
     display: grid;
     justify-content: center;
     align-content: center;
-    background-color: rgb(23, 28, 99);
-    opacity: 0.9;
+    background-color: rgb(251, 252, 250);
 }

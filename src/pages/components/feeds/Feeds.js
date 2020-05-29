@@ -6,7 +6,7 @@ const Feeds = () => {
 
     return(
     <div className={styles.container}>
-        <h1>Feeds</h1>
+        <h1>Teste</h1>
     </div>
     );
 

@@ -7,7 +7,7 @@ const NutritionApp = () => {
         <>
         <Header/>
         <Menu />
-        <Footer />
+        <Footer/>
         </>
     );
 

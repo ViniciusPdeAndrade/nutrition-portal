@@ -2,7 +2,7 @@ import React, { useContext, useCallback } from 'react';
 import ShowContext from '../../../states/showMenu/Context';
 import * as visibleActions from '../../../states/showMenu/actions';
 import Body from '../body/Body';
-import './menu.css'
+import styles from './Menu.module.css';
 
 
 const Menu = () => {
@@ -22,13 +22,11 @@ const Menu = () => {
     }, [dispatchContainer]);
 
     return (
-        <div>
-            <div className="menu">
-                <button className="buttons" onClick={handleIncial}>Inicio</button>
-                <button className="buttons" onClick={handleCuriosities}>Curiosidades</button>
-                <button className="buttons" onClick={handleFeeds}>Alimentação</button>
-                <button className="buttons">Receitas</button>
-            </div>
+        <div className={styles.container}>
+                <button className={styles.buttons} onClick={handleIncial}>Inicio</button>
+                <button className={styles.buttons} onClick={handleCuriosities}>Curiosidades</button>
+                <button className={styles.buttons} onClick={handleFeeds}>Alimentação</button>
+                <button className={styles.buttons}>Receitas</button>
             <Body showMenu={show} />
         </div>
     );
