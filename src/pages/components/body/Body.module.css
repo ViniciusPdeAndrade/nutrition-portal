@@ -1,12 +1,13 @@
 .container {
     position: fixed;
-    top: 100px;
+    top: 130px;
     left: 0px;
     width: 100%;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 200px);
     border: none;
     display: grid;
     justify-content: center;
     align-content: center;
-    background-color: rgb(251, 252, 250);
+    /* background-color: rgb(251, 252, 250); */
+    /* background-image: linear-gradient( rgb(147, 235, 156), #76BC7D); */
 }
