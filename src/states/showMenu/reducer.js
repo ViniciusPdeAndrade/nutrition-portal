@@ -5,12 +5,14 @@ const reducer = (_, action) => {
         case visibleTypes.VISIBLE_INICIAL:
             return action.payload.shows
 
-        case visibleTypes.VISIBLE_CURIOSITY:
+        case visibleTypes.VISIBLE_PROFILE:
             return action.payload.shows
 
-        case visibleTypes.VISIBLE_FEEDS:
+        case visibleTypes.VISIBLE_NUTRITION:
             return action.payload.shows
 
+        case visibleTypes.VISIBLE_TREATMENT:
+            return action.payload.shows
         default:
             throw new Error();
     }

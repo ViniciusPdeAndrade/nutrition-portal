@@ -1,7 +1,8 @@
 import React from 'react';
 import Inicial from '../inicial/Incial';
-import Curiosities from '../curiosities/Curiosities';
-import Feeds from '../feeds/Feeds';
+import Profile from '../profile/Profile';
+import Nutrition from '../nutrition/Nutrition';
+import Treatment from '../treatment/Treatment';
 
 import styles from './Body.module.css';
 
@@ -9,8 +10,9 @@ const Body = ({ showMenu }) => {
     return (
         <div className={styles.container}>
             {showMenu.viewInicial && <Inicial />}
-            {showMenu.viewCuriosity && <Curiosities />}
-            {showMenu.viewFeeds && <Feeds />}
+            {showMenu.viewProfile && <Profile />}
+            {showMenu.viewNutrition && <Nutrition />}
+            {showMenu.viewTreatment && <Treatment />}
             
         </div>
     );

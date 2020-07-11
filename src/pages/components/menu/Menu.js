@@ -13,20 +13,25 @@ const Menu = () => {
         dispatchContainer(visibleActions.toViewInicial())
     }, [dispatchContainer]);
 
-    const handleCuriosities = useCallback(() => {
-        dispatchContainer(visibleActions.toViewCuriosity())
+    const handleProfile = useCallback(() => {
+        dispatchContainer(visibleActions.toViewProfile())
     }, [dispatchContainer]);
 
-    const handleFeeds = useCallback(() => {
-        dispatchContainer(visibleActions.toViewFeeds())
+    const handleNutrition = useCallback(() => {
+        dispatchContainer(visibleActions.toViewNutrition())
+    }, [dispatchContainer]);
+
+    const handleTreatment = useCallback(() => {
+        dispatchContainer(visibleActions.toViewTreatment())
     }, [dispatchContainer]);
 
     return (
         <div className={styles.container}>
           <div className={styles.containerButton}>
             <button className={styles.buttons} onClick={handleIncial}>Inicio</button>
-            <button className={styles.buttons} onClick={handleCuriosities}>Curiosidades</button>
-            <button className={styles.buttons} onClick={handleFeeds}>Alimentação</button>
+            <button className={styles.buttons} onClick={handleProfile}>Perfil</button>
+            <button className={styles.buttons} onClick={handleNutrition}>Nutrição</button>
+            <button className={styles.buttons} onClick={handleTreatment}>Tratamentos</button>
             <button className={styles.buttons}>Receitas</button>
           </div>
           <Body showMenu={show} />

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './Feeds.module.css';
+import styles from './Treatment.module.css';
 
-const Feeds = () => {
+const Treatment = () => {
 
     return(
       <div className={styles.container}>
@@ -21,4 +21,4 @@ Pretium in himenaeos semper blandit fermentum dolor primis, accumsan libero null
 }
 
 
-export default Feeds;
+export default Treatment;

@@ -6,34 +6,51 @@ export const toViewInicial = () => {
         payload: {
             shows: {
                 viewInicial: true,
-                viewCuriosity: false,
-                viewFeeds: false
+                viewProfile: false,
+                viewNutrition: false,
+                viewTreatment: false
             }
         }
     }
 }
 
-export const toViewCuriosity = () => {
+export const toViewProfile = () => {
     return {
-        type: visibleTypes.VISIBLE_CURIOSITY,
+        type: visibleTypes.VISIBLE_PROFILE,
         payload: {
             shows: {
                 viewInicial: false,
-                viewCuriosity: true,
-                viewFeeds: false
+                viewProfile: true,
+                viewNutrition: false,
+                viewTreatment: false
             }
         }
     }
 }
 
-export const toViewFeeds = () => {
+export const toViewNutrition = () => {
     return {
-        type: visibleTypes.VISIBLE_FEEDS,
+        type: visibleTypes.VISIBLE_NUTRITION,
         payload: {
             shows: {
                 viewInicial: false,
-                viewCuriosity: false,
-                viewFeeds: true
+                viewProfile: false,
+                viewTreatment: false,
+                viewNutrition: true
+            }
+        }
+    }
+}
+
+export const toViewTreatment = () => {
+    return {
+        type: visibleTypes.VISIBLE_TREATMENT,
+        payload: {
+            shows: {
+                viewInicial: false,
+                viewProfile: false,
+                viewNutrition: false,
+                viewTreatment: true
             }
         }
     }

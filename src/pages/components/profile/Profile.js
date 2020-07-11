@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './Curiosities.module.css';
+import styles from './Profile.module.css';
 
-const Curiosities = () => {
+const Profile = () => {
 
     return(
     <div className={styles.container}>
@@ -21,4 +21,4 @@ Pretium in himenaeos semper blandit fermentum dolor primis, accumsan libero null
 }
 
 
-export default Curiosities;
+export default Profile;
