@@ -1,11 +1,11 @@
 import React from 'react';
 import ShowProvider from './states/showMenu/Provider';
-import NutritionApp from './pages/nutrition/NutritionApp'
+import Routes from './routes';
 
 const App = () => {
   return (
     <ShowProvider>
-      <NutritionApp/>
+      <Routes/>
     </ShowProvider>
 
   );

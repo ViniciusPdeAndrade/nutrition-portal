@@ -1,5 +1,7 @@
 import React, { useContext, useCallback } from 'react';
 import ShowContext from '../../../states/showMenu/Context';
+import { Link } from 'react-router-dom';
+
 import * as visibleActions from '../../../states/showMenu/actions';
 import Body from '../body/Body';
 import styles from './Menu.module.css';
@@ -32,7 +34,7 @@ const Menu = () => {
             <button className={styles.buttons} onClick={handleProfile}>Perfil</button>
             <button className={styles.buttons} onClick={handleNutrition}>Nutrição</button>
             <button className={styles.buttons} onClick={handleTreatment}>Tratamentos</button>
-            <button className={styles.buttons}>Receitas</button>
+            <Link to='/receitas' className={styles.buttons}>Receitas</Link>
           </div>
           <Body showMenu={show} />
         </div>
