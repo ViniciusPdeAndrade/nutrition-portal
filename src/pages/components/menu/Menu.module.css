@@ -15,6 +15,15 @@
   /* padding: 0px 40px 0px 0px; */
   width: 90.3%;  
   display: inline;
+
+  -webkit-overflow-scrolling: touch; 
+  -ms-overflow-style: -ms-autohiding-scrollbar; 
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.containerButton::-webkit-scrollbar {
+  display: none; 
 }
 
 .buttons{
@@ -26,8 +35,9 @@
 	font-family:Arial;
 	font-size:18px;
   font-weight:bold;
+  text-decoration: none;
   /* padding: 5px 40px; */
-  padding: 6px 40px 14px 10px;
+  padding: 5px 40px 14px 10px;
 }
 
 .buttons:hover{

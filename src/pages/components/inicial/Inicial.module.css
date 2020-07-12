@@ -16,14 +16,14 @@
 .container h1{
   float: left;
   margin: 0;
-  padding: 20px 0px 0px 20px;
+  padding: 20px 0px 10px 20px;
   font-size: 20px;
   text-align: justify;
 }
 
 .container p{
   float: left;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px 10px 30px;
   padding: none;
   font-size: 20px;
   text-align: justify;
@@ -33,6 +33,7 @@
   border: 1px solid rgb(165, 162, 162);
   padding: 2px 0;
   background-color: #c7c6c6;
+  border-radius: 10px;
 }
 
 .container::-webkit-scrollbar {
