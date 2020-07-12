@@ -11,8 +11,8 @@ const Menu = () => {
 
     const { show, dispatchContainer } = useContext(ShowContext);
 
-    const handleIncial = useCallback(() => {
-        dispatchContainer(visibleActions.toViewInicial())
+    const handleInitial = useCallback(() => {
+        dispatchContainer(visibleActions.toViewInitial())
     }, [dispatchContainer]);
 
     const handleProfile = useCallback(() => {
@@ -30,7 +30,7 @@ const Menu = () => {
     return (
         <div className={styles.container}>
           <div className={styles.containerButton}>
-            <button className={styles.buttons} onClick={handleIncial}>Inicio</button>
+            <button className={styles.buttons} onClick={handleInitial}>Inicio</button>
             <button className={styles.buttons} onClick={handleProfile}>Perfil</button>
             <button className={styles.buttons} onClick={handleNutrition}>Nutrição</button>
             <button className={styles.buttons} onClick={handleTreatment}>Tratamentos</button>

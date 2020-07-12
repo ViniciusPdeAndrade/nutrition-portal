@@ -1,11 +1,11 @@
 import * as visibleTypes from './types';
 
-export const toViewInicial = () => {
+export const toViewInitial = () => {
     return {
-        type: visibleTypes.VISIBLE_INICIAL,
+        type: visibleTypes.VISIBLE_INITIAL,
         payload: {
             shows: {
-                viewInicial: true,
+                viewInitial: true,
                 viewProfile: false,
                 viewNutrition: false,
                 viewTreatment: false
@@ -19,7 +19,7 @@ export const toViewProfile = () => {
         type: visibleTypes.VISIBLE_PROFILE,
         payload: {
             shows: {
-                viewInicial: false,
+                viewInitial: false,
                 viewProfile: true,
                 viewNutrition: false,
                 viewTreatment: false
@@ -33,7 +33,7 @@ export const toViewNutrition = () => {
         type: visibleTypes.VISIBLE_NUTRITION,
         payload: {
             shows: {
-                viewInicial: false,
+                viewInitial: false,
                 viewProfile: false,
                 viewTreatment: false,
                 viewNutrition: true
@@ -47,7 +47,7 @@ export const toViewTreatment = () => {
         type: visibleTypes.VISIBLE_TREATMENT,
         payload: {
             shows: {
-                viewInicial: false,
+                viewInitial: false,
                 viewProfile: false,
                 viewNutrition: false,
                 viewTreatment: true

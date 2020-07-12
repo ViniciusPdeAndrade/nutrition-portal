@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './Inicial.module.css';
+import styles from './Initial.module.css';
 
-const Inicial = () => {
+const Initial = () => {
 
   return(    
     <div className={styles.container}>
@@ -20,4 +20,4 @@ const Inicial = () => {
 
 }
 
-export default Inicial;
+export default Initial;
