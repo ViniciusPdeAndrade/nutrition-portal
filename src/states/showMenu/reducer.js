@@ -15,6 +15,9 @@ const reducer = (_, action) => {
         case visibleTypes.VISIBLE_TREATMENT:
             return action.payload.shows
 
+        case visibleTypes.VISIBLE_RECIPES:
+            return action.payload.shows
+            
         default:
             throw new Error();
     }
