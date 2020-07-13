@@ -1,0 +1,106 @@
+{
+  "recipes": [{
+      "id": 1,
+      "name": "CREME DE ERVILHA COM MANJERICÃO",
+      "revenue": "2 porções de 300g",
+      "ingredients": [{
+              "id": 1,
+              "name": "Ervilha",
+              "measure": "400g",
+              "homeMeasure": "2 Latas"
+          }, {
+              "id": 2,
+              "name": "Creme de leite",
+              "measure": "200g",
+              "homeMeasure": "1 Caixa"
+          }, {
+              "id": 3,
+              "name": "Cebola",
+              "measure": "20g",
+              "homeMeasure": "2 Colheres de sopa"
+          }, {
+              "id": 4,
+              "name": "Alho",
+              "measure": "2g",
+              "homeMeasure": "1 Dente"
+          }, {
+              "id": 5,
+              "name": "Óleo de milho",
+              "measure": "10ml",
+              "homeMeasure": "1 Colher de sopa"
+          }, {
+              "id": 6,
+              "name": "Sal",
+              "measure": "1/2g",
+              "homeMeasure": "1/2 sachê de sal"
+          }, {
+              "id": 7,
+              "name": "Manjericão",
+              "measure": "5g",
+              "homeMeasure": "2 ramos"
+          }
+      ],
+      "preparationMode": [{
+              "id": 1,
+              "content": "Escorra a água das 2 latas (400g) de ervilha, e reserve;"
+          }, {
+              "id": 2,
+              "content": "Em seguida, aqueça uma panela média, acrescente 1 colher de sopa (10ml) de óleo de milho, 2 colheres de sopa de cebola (10g) e 1 dente (2g) de alho. Refogue bem até dourar;"
+          }, {
+              "id": 3,
+              "content": "Após, acrescente a ervilha na panela, refogue brevemente e leve para bater no liquidificador com 1 caixa (200g) de creme de leite;"
+          }, {
+              "id": 4,
+              "content": "Devolva a mistura para a panela, e em fogo baixo mexa bem;"
+          }, {
+              "id": 5,
+              "content": "Acrescente 1/2 sachê (1/2 grama) de sal e 1 ramo de manjericão, e quando estiver levemente borbulhando estará pronto;"
+          }, {
+              "id": 6,
+              "content": "Sirva em um prato fundo, e utilize o ramo que sobrou de manjericão para enfeitar o prato."
+          }
+      ],
+      "nutrients": [{
+              "id": 1,
+              "measureDescription": "Gr/ml",
+              "measure": "Porção 300g"
+          }, {
+              "id": 2,
+              "measureDescription": "kcal",
+              "measure": "-"
+          }, {
+              "id": 2,
+              "measureDescription": "HC(g)",
+              "measure": 256.31
+          }, {
+              "id": 3,
+              "measureDescription": "Ptn (g)",
+              "measure": 77.328
+          }, {
+              "id": 4,
+              "measureDescription": "Lip (g)",
+              "measure": 26.11
+          }, {
+              "id": 5,
+              "measureDescription": "Vit. E (mg)",
+              "measure": 152.88
+          }, {
+              "id": 6,
+              "measureDescription": "Vit. A (mcg)",
+              "measure": 0.54
+          }, {
+              "id": 7,
+              "measureDescription": "Vit. C (mg)",
+              "measure": 88.29
+          }, {
+              "id": 8,
+              "measureDescription": "Zin (mg)",
+              "measure": 88.29
+          }, {
+              "id": 9,
+              "measureDescription": "Sel (mcg)",
+              "measure": 1.5
+          }
+      ]
+  }]
+}
