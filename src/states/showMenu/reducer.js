@@ -1,5 +1,5 @@
 import * as visibleTypes from './types';
-import { ActionBackup } from 'material-ui/svg-icons';
+//import { ActionBackup } from 'material-ui/svg-icons';
 
 const reducer = (_, action) => {
     switch (action.type) {

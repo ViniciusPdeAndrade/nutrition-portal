@@ -5,7 +5,7 @@ import styles from './Profile.module.css';
 const Profile = () => {
   return(
     <div className={styles.container}>
-      <img SRC={imgProfile}/>
+      <img src={imgProfile} alt="profile"/>
       <h1>Mariani da Silva Flores</h1>
       <p>Eu me chamo Mariani da Silva Flores, sou estudante de Nutrição 
         na faculdade Unisinos.
