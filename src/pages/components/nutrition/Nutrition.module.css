@@ -6,9 +6,6 @@
   margin: 0 auto;
   border: none;
   border-radius: 10px;
-  /* background-color: rgb(243, 253, 244);
-  box-shadow: inset 3px 3px 5px 3px #02200d; */
-  opacity: 0.8;
   overflow-y: auto;
 }
 

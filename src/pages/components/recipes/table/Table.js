@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Table.module.css';
 let data = require('../Recipes.json');
 
 const Table = () => {
@@ -6,17 +7,20 @@ const Table = () => {
     <div>
       {
         data.recipes.map(recipe => 
-          <div>
-            <img src={require('./images/' + recipe.img_name)} alt={recipe.recipeName}/>
-            <table key={recipe.id}>
+          <div className={styles.container}>
+            <img 
+              src={require('./images/' + recipe.img_name)} 
+              alt={recipe.recipeName}
+              className={styles.img}
+            />
+            <p>{recipe.recipeName}</p>
+            <table 
+              key={recipe.id} 
+              className={styles.tableIngredients}
+            >
               <thead>
                 <tr>
-                  <th>{recipe.recipeName}</th>                  
-                </tr>
-              </thead>
-              <thead>
-                <tr>
-                  <th>INGREDIENTE</th>
+                  <th>INGREDIENTES</th>
                   <th>QUANTIDADE</th>
                   <th>MEDIDA CASEIRA</th>
                 </tr>
@@ -32,7 +36,7 @@ const Table = () => {
               </tbody>            
             </table>
 
-            <table key={recipe.id}>
+            <table key={recipe.id} className={styles.tablePreparationMode}>
               <thead>
                 <tr>
                   <th>RENDIMENTO: {recipe.revenue}</th>
@@ -52,7 +56,7 @@ const Table = () => {
               </tbody>
             </table>
 
-            <table key={recipe.id}>
+            <table key={recipe.id} className={styles.tableNutrients}>
               <thead>
                 <tr>
                   <th>Nutrientes</th>
@@ -64,8 +68,8 @@ const Table = () => {
                 </tr>                
               </thead>
               <tbody>
-                {recipe.nutrients.map(nutrient => 
-                  <th key={nutrient.id}>{nutrient.measure}</th>
+                {recipe.nutrients.map(nutrient =>
+                  <td key={nutrient.id}>{nutrient.measure}</td>
                 )}
               </tbody>
             </table>
