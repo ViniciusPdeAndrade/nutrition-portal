@@ -1,224 +1,547 @@
 {
-    "recipes": [{
-        "id": 1,
-        "img_name": "1.jpg",
-        "recipeName": "CREME DE ERVILHA COM MANJERICÃO",
-        "revenue": "2 porções de 300g",
-        "ingredients": [{
-                "id": 1,
-                "name": "Ervilha",
-                "measure": "400g",
-                "homeMeasure": "2 Latas"
-            }, {
-                "id": 2,
-                "name": "Creme de leite",
-                "measure": "200g",
-                "homeMeasure": "1 Caixa"
-            }, {
-                "id": 3,
-                "name": "Cebola",
-                "measure": "20g",
-                "homeMeasure": "2 Colheres de sopa"
-            }, {
-                "id": 4,
-                "name": "Alho",
-                "measure": "2g",
-                "homeMeasure": "1 Dente"
-            }, {
-                "id": 5,
-                "name": "Óleo de milho",
-                "measure": "10ml",
-                "homeMeasure": "1 Colher de sopa"
-            }, {
-                "id": 6,
-                "name": "Sal",
-                "measure": "1/2g",
-                "homeMeasure": "1/2 sachê de sal"
-            }, {
-                "id": 7,
-                "name": "Manjericão",
-                "measure": "5g",
-                "homeMeasure": "2 ramos"
-            }
-        ],
-        "preparationMode": [{
-                "id": 1,
-                "content": "Escorra a água das 2 latas (400g) de ervilha, e reserve;"
-            }, {
-                "id": 2,
-                "content": "Em seguida, aqueça uma panela média, acrescente 1 colher de sopa (10ml) de óleo de milho, 2 colheres de sopa de cebola (10g) e 1 dente (2g) de alho. Refogue bem até dourar;"
-            }, {
-                "id": 3,
-                "content": "Após, acrescente a ervilha na panela, refogue brevemente e leve para bater no liquidificador com 1 caixa (200g) de creme de leite;"
-            }, {
-                "id": 4,
-                "content": "Devolva a mistura para a panela, e em fogo baixo mexa bem;"
-            }, {
-                "id": 5,
-                "content": "Acrescente 1/2 sachê (1/2 grama) de sal e 1 ramo de manjericão, e quando estiver levemente borbulhando estará pronto;"
-            }, {
-                "id": 6,
-                "content": "Sirva em um prato fundo, e utilize o ramo que sobrou de manjericão para enfeitar o prato."
-            }
-        ],
-        "nutrients": [{
-                "id": 1,
-                "measureDescription": "Gr/ml",
-                "measure": "Porção 300g"
-            }, {
-                "id": 2,
-                "measureDescription": "kcal",
-                "measure": "-"
-            }, {
-                "id": 2,
-                "measureDescription": "HC(g)",
-                "measure": 256.31
-            }, {
-                "id": 3,
-                "measureDescription": "Ptn (g)",
-                "measure": 77.328
-            }, {
-                "id": 4,
-                "measureDescription": "Lip (g)",
-                "measure": 26.11
-            }, {
-                "id": 5,
-                "measureDescription": "Vit. E (mg)",
-                "measure": 152.88
-            }, {
-                "id": 6,
-                "measureDescription": "Vit. A (mcg)",
-                "measure": 0.54
-            }, {
-                "id": 7,
-                "measureDescription": "Vit. C (mg)",
-                "measure": 88.29
-            }, {
-                "id": 8,
-                "measureDescription": "Zin (mg)",
-                "measure": 88.29
-            }, {
-                "id": 9,
-                "measureDescription": "Sel (mcg)",
-                "measure": 1.5
-            }
-        ]
-    },
-    {
-      "id": 2,
-      "img_name": "2.jpg",
-      "recipeName": "PURÊ DE FEIJÃO PRETO COM CREME DE ARROZ BRANCO",
-      "revenue": "4 porções de 300g",
-      "ingredients": [{
-              "id": 1,
-              "name": "Arroz branco",
-              "measure": "200g",
-              "homeMeasure": "1 xícara"
-          }, {
-              "id": 2,
-              "name": "Feijão preto",
-              "measure": "200g",
-              "homeMeasure": "1 xícara"
-          }, {
-              "id": 3,
-              "name": "Cebola",
-              "measure": "10g",
-              "homeMeasure": "1 Colheres de sopa"
-          }, {
-              "id": 4,
-              "name": "Óleo de milho",
-              "measure": "10ml",
-              "homeMeasure": "1 Colher de sopa"
-          }, {
-              "id": 5,
-              "name": "Sal",
-              "measure": "1g",
-              "homeMeasure": "1 sachê de sal"
-          }, {
-              "id": 6,
-              "name": "Louro seco",
-              "measure": "2g",
-              "homeMeasure": "4 folhas"
-          }, {
-              "id": 7,
-              "name": "Água",
-              "measure": "800ml",
-              "homeMeasure": "3 xícaras"
-          }
-      ],
-      "preparationMode": [{
-              "id": 1,
-              "content": "Um dia anterior ao preparo, deixe 1 xícara (200g) de feijão preto de molho em água;"
-          }, {
-              "id": 2,
-              "content": "No dia do preparo, escorra bem a água (e descarte) e coloque os grãos na paneja de pressão com água até cobri-los (e mais uns dois dedos acima) com 4 folhas de louro seco;"
-          }, {
-              "id": 3,
-              "content": "Leve ao fogo e após a panela chiar com a pressão, conte 30 minutos e desligue para que a pressão saia por inteiro;"
-          }, {
-              "id": 4,
-              "content": "Quando a pressão sair, abra a panela e coloque ½ sachê (½ grama) de sal;"
-          }, {
-              "id": 5,
-              "content": "No final, com o feijão já morno, leve ao liquidificador batendo bem para que fique com consistência de purê bem homogêneo;"
-          }, {
-              "id": 6,
-              "content": "Reserve para servir em um prato fundo."
-          }, {
-              "id": 7,
-              "content": "Ferva 500ml de água e reserve;"
-          }, {
-              "id": 8,
-              "content": "Lave com água fria 1 xícara (200g) de arroz branco, e após leve ao fogo baixo, junto com 1 colher de sopa (10ml) de óleo de milho, 1 colher de sopa (10g) de cebola e ½ sachê (½ grama) de sal, e frite rapidamente;"
-          }, {
-              "id": 9,
-              "content": "Acrescente em seguida 500ml de água fervente no arroz e deixe cozinhar. Desligue o fogo quando o arroz estiver em forma de papa;"
-          }, {
-              "id": 10,
-              "content": "Sirva em um prato fundo junto com o purê de feijão preto;"
-          }
-      ],
-      "nutrients": [{
-              "id": 1,
-              "measureDescription": "Gr/ml",
-              "measure": "Porção 300g"
-          }, {
-              "id": 2,
-              "measureDescription": "kcal",
-              "measure": "-"
-          }, {
-              "id": 2,
-              "measureDescription": "HC(g)",
-              "measure": 301.59
-          }, {
-              "id": 3,
-              "measureDescription": "Ptn (g)",
-              "measure": 209.66
-          }, {
-              "id": 4,
-              "measureDescription": "Lip (g)",
-              "measure": 57.33
-          }, {
-              "id": 5,
-              "measureDescription": "Vit. E (mg)",
-              "measure": 34.59
-          }, {
-              "id": 6,
-              "measureDescription": "Vit. A (mcg)",
-              "measure": 0.13
-          }, {
-              "id": 7,
-              "measureDescription": "Vit. C (mg)",
-              "measure": 0
-          }, {
-              "id": 8,
-              "measureDescription": "Zin (mg)",
-              "measure": 0.14
-          }, {
-              "id": 9,
-              "measureDescription": "Sel (mcg)",
-              "measure": 2.38
-          }
-      ]
-    }]
-  }
+  "recipes": [{
+          "id": 1,
+          "img_name": "1.jpg",
+          "recipeName": "CREME DE ERVILHA COM MANJERICÃO",
+          "revenue": "2 porções de 300g",
+          "ingredients": [{
+                  "id": 1,
+                  "name": "Ervilha",
+                  "measure": "400g",
+                  "homeMeasure": "2 Latas"
+              }, {
+                  "id": 2,
+                  "name": "Creme de leite",
+                  "measure": "200g",
+                  "homeMeasure": "1 Caixa"
+              }, {
+                  "id": 3,
+                  "name": "Cebola",
+                  "measure": "20g",
+                  "homeMeasure": "2 Colheres de sopa"
+              }, {
+                  "id": 4,
+                  "name": "Alho",
+                  "measure": "2g",
+                  "homeMeasure": "1 Dente"
+              }, {
+                  "id": 5,
+                  "name": "Óleo de milho",
+                  "measure": "10ml",
+                  "homeMeasure": "1 Colher de sopa"
+              }, {
+                  "id": 6,
+                  "name": "Sal",
+                  "measure": "1/2g",
+                  "homeMeasure": "1/2 sachê de sal"
+              }, {
+                  "id": 7,
+                  "name": "Manjericão",
+                  "measure": "5g",
+                  "homeMeasure": "2 ramos"
+              }
+          ],
+          "preparationMode": [{
+                  "id": 1,
+                  "content": "Escorra a água das 2 latas (400g) de ervilha, e reserve;"
+              }, {
+                  "id": 2,
+                  "content": "Em seguida, aqueça uma panela média, acrescente 1 colher de sopa (10ml) de óleo de milho, 2 colheres de sopa de cebola (10g) e 1 dente (2g) de alho. Refogue bem até dourar;"
+              }, {
+                  "id": 3,
+                  "content": "Após, acrescente a ervilha na panela, refogue brevemente e leve para bater no liquidificador com 1 caixa (200g) de creme de leite;"
+              }, {
+                  "id": 4,
+                  "content": "Devolva a mistura para a panela, e em fogo baixo mexa bem;"
+              }, {
+                  "id": 5,
+                  "content": "Acrescente 1/2 sachê (1/2 grama) de sal e 1 ramo de manjericão, e quando estiver levemente borbulhando estará pronto;"
+              }, {
+                  "id": 6,
+                  "content": "Sirva em um prato fundo, e utilize o ramo que sobrou de manjericão para enfeitar o prato."
+              }
+          ],
+          "nutrients": [{
+                  "id": 1,
+                  "measureDescription": "Gr/ml",
+                  "measure": "Porção 300g"
+              }, {
+                  "id": 2,
+                  "measureDescription": "kcal",
+                  "measure": "-"
+              }, {
+                  "id": 2,
+                  "measureDescription": "HC(g)",
+                  "measure": 256.31
+              }, {
+                  "id": 3,
+                  "measureDescription": "Ptn (g)",
+                  "measure": 77.328
+              }, {
+                  "id": 4,
+                  "measureDescription": "Lip (g)",
+                  "measure": 26.11
+              }, {
+                  "id": 5,
+                  "measureDescription": "Vit. E (mg)",
+                  "measure": 152.88
+              }, {
+                  "id": 6,
+                  "measureDescription": "Vit. A (mcg)",
+                  "measure": 0.54
+              }, {
+                  "id": 7,
+                  "measureDescription": "Vit. C (mg)",
+                  "measure": 88.29
+              }, {
+                  "id": 8,
+                  "measureDescription": "Zin (mg)",
+                  "measure": 88.29
+              }, {
+                  "id": 9,
+                  "measureDescription": "Sel (mcg)",
+                  "measure": 1.5
+              }
+          ]
+      }, {
+          "id": 2,
+          "img_name": "2.jpg",
+          "recipeName": "PURÊ DE FEIJÃO PRETO COM CREME DE ARROZ BRANCO",
+          "revenue": "4 porções de 300g",
+          "ingredients": [{
+                  "id": 1,
+                  "name": "Arroz branco",
+                  "measure": "200g",
+                  "homeMeasure": "1 xícara"
+              }, {
+                  "id": 2,
+                  "name": "Feijão preto",
+                  "measure": "200g",
+                  "homeMeasure": "1 xícara"
+              }, {
+                  "id": 3,
+                  "name": "Cebola",
+                  "measure": "10g",
+                  "homeMeasure": "1 Colheres de sopa"
+              }, {
+                  "id": 4,
+                  "name": "Óleo de milho",
+                  "measure": "10ml",
+                  "homeMeasure": "1 Colher de sopa"
+              }, {
+                  "id": 5,
+                  "name": "Sal",
+                  "measure": "1g",
+                  "homeMeasure": "1 sachê de sal"
+              }, {
+                  "id": 6,
+                  "name": "Louro seco",
+                  "measure": "2g",
+                  "homeMeasure": "4 folhas"
+              }, {
+                  "id": 7,
+                  "name": "Água",
+                  "measure": "800ml",
+                  "homeMeasure": "3 xícaras"
+              }
+          ],
+          "preparationMode": [{
+                  "id": 1,
+                  "content": "Um dia anterior ao preparo, deixe 1 xícara (200g) de feijão preto de molho em água;"
+              }, {
+                  "id": 2,
+                  "content": "No dia do preparo, escorra bem a água (e descarte) e coloque os grãos na paneja de pressão com água até cobri-los (e mais uns dois dedos acima) com 4 folhas de louro seco;"
+              }, {
+                  "id": 3,
+                  "content": "Leve ao fogo e após a panela chiar com a pressão, conte 30 minutos e desligue para que a pressão saia por inteiro;"
+              }, {
+                  "id": 4,
+                  "content": "Quando a pressão sair, abra a panela e coloque 1/2 sachê (1/2 grama) de sal;"
+              }, {
+                  "id": 5,
+                  "content": "No final, com o feijão já morno, leve ao liquidificador batendo bem para que fique com consistência de purê bem homogêneo;"
+              }, {
+                  "id": 6,
+                  "content": "Reserve para servir em um prato fundo."
+              }, {
+                  "id": 7,
+                  "content": "Ferva 500ml de água e reserve;"
+              }, {
+                  "id": 8,
+                  "content": "Lave com água fria 1 xícara (200g) de arroz branco, e após leve ao fogo baixo, junto com 1 colher de sopa (10ml) de óleo de milho, 1 colher de sopa (10g) de cebola e 1/2 sachê (1/2 grama) de sal, e frite rapidamente;"
+              }, {
+                  "id": 9,
+                  "content": "Acrescente em seguida 500ml de água fervente no arroz e deixe cozinhar. Desligue o fogo quando o arroz estiver em forma de papa;"
+              }, {
+                  "id": 10,
+                  "content": "Sirva em um prato fundo junto com o purê de feijão preto;"
+              }
+          ],
+          "nutrients": [{
+                  "id": 1,
+                  "measureDescription": "Gr/ml",
+                  "measure": "Porção 300g"
+              }, {
+                  "id": 2,
+                  "measureDescription": "kcal",
+                  "measure": "-"
+              }, {
+                  "id": 2,
+                  "measureDescription": "HC(g)",
+                  "measure": 301.59
+              }, {
+                  "id": 3,
+                  "measureDescription": "Ptn (g)",
+                  "measure": 209.66
+              }, {
+                  "id": 4,
+                  "measureDescription": "Lip (g)",
+                  "measure": 57.33
+              }, {
+                  "id": 5,
+                  "measureDescription": "Vit. E (mg)",
+                  "measure": 34.59
+              }, {
+                  "id": 6,
+                  "measureDescription": "Vit. A (mcg)",
+                  "measure": 0.13
+              }, {
+                  "id": 7,
+                  "measureDescription": "Vit. C (mg)",
+                  "measure": 0
+              }, {
+                  "id": 8,
+                  "measureDescription": "Zin (mg)",
+                  "measure": 0.14
+              }, {
+                  "id": 9,
+                  "measureDescription": "Sel (mcg)",
+                  "measure": 2.38
+              }
+          ]
+      }, {
+          "id": 3,
+          "img_name": "3.jpg",
+          "recipeName": "PURÊ DE BATATA DOCE E CENOURA",
+          "revenue": "2 porções de 300g",
+          "ingredients": [{
+                  "id": 1,
+                  "name": "Batata doce",
+                  "measure": "200g",
+                  "homeMeasure": "1 unidade"
+              }, {
+                  "id": 2,
+                  "name": "Leite desnatado",
+                  "measure": "50ml",
+                  "homeMeasure": "1/4 xícara"
+              }, {
+                  "id": 3,
+                  "name": "Cenoura",
+                  "measure": "200g",
+                  "homeMeasure": "1 unidade"
+              }, {
+                  "id": 4,
+                  "name": "Cebola",
+                  "measure": "10g",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 5,
+                  "name": "Óleo de milho",
+                  "measure": "10ml",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 6,
+                  "name": "Sal",
+                  "measure": "1/2 g",
+                  "homeMeasure": "1/2 sachê de sal"
+              }, {
+                  "id": 7,
+                  "name": "Água",
+                  "measure": "800ml",
+                  "homeMeasure": "4 xícaras"
+              }
+          ],
+          "preparationMode": [{
+                  "id": 1,
+                  "content": "Descasque 1 unidade (200g) de batata doce, corte em rodelas e leve ao fogo com 500ml de água. Deixe ferver até ficar no ponto bem mole e de preferência seque toda a água;"
+              }, {
+                  "id": 2,
+                  "content": "Escorra o restante da água da panela com muito cuidado e reserve;"
+              }, {
+                  "id": 3,
+                  "content": "Descasque 1 unidade (200g) de cenoura e corte em rodelas pequenas;"
+              }, {
+                  "id": 4,
+                  "content": "Após leve ao fogo para cozinhar com 300ml de água;"
+              }, {
+                  "id": 5,
+                  "content": "Quando estiver bem mole, escorra a água com muito cuidado (se restar água do cozimento, pois o ideal é secar);"
+              }, {
+                  "id": 6,
+                  "content": "Refogue a cenoura em fogo baixo com 1 colher de sopa (10ml) de óleo de milho, 1 colher de sopa (10g) de cebola (até dourar);"
+              }, {
+                  "id": 7,
+                  "content": "Coloque a cenoura refogada com cebola no liquidificador e acrescente a batata doce reservada;"
+              }, {
+                  "id": 8,
+                  "content": "Acrescente 1 colher de sopa 50ml (1/4 de xícara) de leite desnatado e 1/2 sachê (1/2 grama) de sal. Bata bem até que fique um creme homogêneo;"
+              }, {
+                  "id": 9,
+                  "content": "Sirva em um prato fundo;"
+              }
+          ],
+          "nutrients": [{
+                  "id": 1,
+                  "measureDescription": "Gr/ml",
+                  "measure": "Porção 300g"
+              }, {
+                  "id": 2,
+                  "measureDescription": "kcal",
+                  "measure": "-"
+              }, {
+                  "id": 2,
+                  "measureDescription": "HC(g)",
+                  "measure": 95.64
+              }, {
+                  "id": 3,
+                  "measureDescription": "Ptn (g)",
+                  "measure": 61.81
+              }, {
+                  "id": 4,
+                  "measureDescription": "Lip (g)",
+                  "measure": 4.51
+              }, {
+                  "id": 5,
+                  "measureDescription": "Vit. E (mg)",
+                  "measure": 29.32
+              }, {
+                  "id": 6,
+                  "measureDescription": "Vit. A (mcg)",
+                  "measure": 0.87
+              }, {
+                  "id": 7,
+                  "measureDescription": "Vit. C (mg)",
+                  "measure": 464.98
+              }, {
+                  "id": 8,
+                  "measureDescription": "Zin (mg)",
+                  "measure": 18.08
+              }, {
+                  "id": 9,
+                  "measureDescription": "Sel (mcg)",
+                  "measure": 0.2
+              }
+          ]
+      }, {
+          "id": 4,
+          "img_name": "4.jpg",
+          "recipeName": "CREME DE ESPINAFRE",
+          "revenue": "1 porções de 300g",
+          "ingredients": [{
+                  "id": 1,
+                  "name": "Espinafre",
+                  "measure": "400g",
+                  "homeMeasure": "2 maços"
+              }, {
+                  "id": 2,
+                  "name": "Leite desnatado",
+                  "measure": "50ml",
+                  "homeMeasure": "1/4 xícara"
+              }, {
+                  "id": 3,
+                  "name": "Manteiga sem sal",
+                  "measure": "10g",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 4,
+                  "name": "Cebola",
+                  "measure": "10g",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 5,
+                  "name": "Alho",
+                  "measure": "2g",
+                  "homeMeasure": "1 dente"
+              }, {
+                  "id": 6,
+                  "name": "Sal",
+                  "measure": "1/2 g",
+                  "homeMeasure": "1/2 sachê de sal"
+              }
+          ],
+          "preparationMode": [{
+                  "id": 1,
+                  "content": "Lave em água corrente 1/2 maço (100g) de espinafre, e corte em pequenos pedaços;"
+              }, {
+                  "id": 2,
+                  "content": "Em uma panela refogue em fogo baixo 1 colher de sopa (10g) de cebola com 1 colher de sopa (10g) de manteiga sem sal e 1 dente (2g) de alho, depois acrescente o espinafre e 1/2 sachê (1/2 grama) de sal;"
+              }, {
+                  "id": 3,
+                  "content": "Refogue bem, dourando a cebola e deixando o espinafre bem macio;"
+              }, {
+                  "id": 4,
+                  "content": "Em seguida misture 50ml (1/4 de xícara) de leite desnatado e leve ao liquidificador, bata bem até que fique um creme homogêneo;"
+              }, {
+                  "id": 5,
+                  "content": "Sirva em um prato fundo;"
+              }
+          ],
+          "nutrients": [{
+                  "id": 1,
+                  "measureDescription": "Gr/ml",
+                  "measure": "Porção 300g"
+              }, {
+                  "id": 2,
+                  "measureDescription": "kcal",
+                  "measure": "-"
+              }, {
+                  "id": 2,
+                  "measureDescription": "HC(g)",
+                  "measure": 37.18
+              }, {
+                  "id": 3,
+                  "measureDescription": "Ptn (g)",
+                  "measure": 8.35
+              }, {
+                  "id": 4,
+                  "measureDescription": "Lip (g)",
+                  "measure": 4.34
+              }, {
+                  "id": 5,
+                  "measureDescription": "Vit. E (mg)",
+                  "measure": 24.48
+              }, {
+                  "id": 6,
+                  "measureDescription": "Vit. A (mcg)",
+                  "measure": 0.69
+              }, {
+                  "id": 7,
+                  "measureDescription": "Vit. C (mg)",
+                  "measure": 58.54
+              }, {
+                  "id": 8,
+                  "measureDescription": "Zin (mg)",
+                  "measure": 0.45
+              }, {
+                  "id": 9,
+                  "measureDescription": "Sel (mcg)",
+                  "measure": 0.12
+              }
+          ]
+      }, {
+          "id": 5,
+          "img_name": "5.jpg",
+          "recipeName": "CREME DE MORANGA CABOTIÁ",
+          "revenue": "2 porções de 300g",
+          "ingredients": [{
+                  "id": 1,
+                  "name": "Moranga cabotia",
+                  "measure": "300g",
+                  "homeMeasure": "1/4 unidade"
+              }, {
+                  "id": 2,
+                  "name": "Creme de leite",
+                  "measure": "100g",
+                  "homeMeasure": "1/2 caixa"
+              }, {
+                  "id": 3,
+                  "name": "Leite desnatado",
+                  "measure": "150ml",
+                  "homeMeasure": "2/3 xícaras"
+              }, {
+                  "id": 4,
+                  "name": "Cebola",
+                  "measure": "20g",
+                  "homeMeasure": "2 colher de sopa"
+              }, {
+                  "id": 5,
+                  "name": "Alho",
+                  "measure": "2g",
+                  "homeMeasure": "1 dente"
+              }, {
+                  "id": 6,
+                  "name": "Óleo de milho",
+                  "measure": "10ml",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 7,
+                  "name": "Sal",
+                  "measure": "1/2 g",
+                  "homeMeasure": "1/2 sachê de sal"
+              }, {
+                  "id": 8,
+                  "name": "Manjericão",
+                  "measure": "5g",
+                  "homeMeasure": "2 ramos"
+              }, {
+                  "id": 9,
+                  "name": "Água",
+                  "measure": "200ml",
+                  "homeMeasure": "1 xícara"
+              }
+          ],
+          "preparationMode": [{
+                  "id": 1,
+                  "content": "Descasque e pique a cebola. Descasque 1/4 unidade (300g) de moranga cabotiá, corte em pedaços pequenos;"
+              }, {
+                  "id": 2,
+                  "content": "Leve uma panela pequena ao fogo, acrescente 1 colher de sopa (10ml) de óleo de milho, 2 colheres de sopa de cebola (20g) e 1 dente (2g) de alho. Refogue bem;"
+              }, {
+                  "id": 3,
+                  "content": "Acrescente a moranga picada e refogue novamente, dourando levemente. Acrescente 200ml de leite e 200ml de água e deixe cozinhar bem até que a moranga fique mole;"
+              }, {
+                  "id": 4,
+                  "content": "Acrescente 1/2 sachê (1/2 grama) de sal e 1/2 caixa (100g) de creme de leite, misture amassando bem a moranga até que fique em forma de um creme homogêneo;"
+              }, {
+                  "id": 5,
+                  "content": "Deixe no fogo, sempre mexendo, até que fique levemente borbulhando;"
+              }, {
+                  "id": 6,
+                  "content": "Sirva em um prato fundo;"
+              }
+          ],
+          "nutrients": [{
+                  "id": 1,
+                  "measureDescription": "Gr/ml",
+                  "measure": "Porção 300g"
+              }, {
+                  "id": 2,
+                  "measureDescription": "kcal",
+                  "measure": "-"
+              }, {
+                  "id": 2,
+                  "measureDescription": "HC(g)",
+                  "measure": 111.77
+              }, {
+                  "id": 3,
+                  "measureDescription": "Ptn (g)",
+                  "measure": 17.32
+              }, {
+                  "id": 4,
+                  "measureDescription": "Lip (g)",
+                  "measure": 5.83
+              }, {
+                  "id": 5,
+                  "measureDescription": "Vit. E (mg)",
+                  "measure": 88.61
+              }, {
+                  "id": 6,
+                  "measureDescription": "Vit. A (mcg)",
+                  "measure": 1.42
+              }, {
+                  "id": 7,
+                  "measureDescription": "Vit. C (mg)",
+                  "measure": 158.81
+              }, {
+                  "id": 8,
+                  "measureDescription": "Zin (mg)",
+                  "measure": 8.93
+              }, {
+                  "id": 9,
+                  "measureDescription": "Sel (mcg)",
+                  "measure": 0.19
+              }
+          ]
+      }
+  ]
+}

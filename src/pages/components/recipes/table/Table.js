@@ -8,12 +8,12 @@ const Table = () => {
       {
         data.recipes.map(recipe => 
           <div className={styles.container}>
+            <p>{recipe.recipeName}</p>
             <img 
               src={require('./images/' + recipe.img_name)} 
               alt={recipe.recipeName}
               className={styles.img}
             />
-            <p>{recipe.recipeName}</p>
             <table 
               key={recipe.id} 
               className={styles.tableIngredients}
