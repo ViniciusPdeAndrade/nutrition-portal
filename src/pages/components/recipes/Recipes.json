@@ -120,26 +120,36 @@
                   "homeMeasure": "1 xícara"
               }, {
                   "id": 3,
-                  "name": "Cebola",
-                  "measure": "10g",
-                  "homeMeasure": "1 Colheres de sopa"
+                  "name": "Cenoura ",
+                  "measure": "50g",
+                  "homeMeasure": "1/4 de xícara"
               }, {
                   "id": 4,
-                  "name": "Óleo de milho",
-                  "measure": "10ml",
-                  "homeMeasure": "1 Colher de sopa"
+                  "name": "Beterraba",
+                  "measure": "50g",
+                  "homeMeasure": "1/4 de xícara"
               }, {
                   "id": 5,
+                  "name": "Cebola",
+                  "measure": "10g",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 6,
+                  "name": "Óleo de milho",
+                  "measure": "10ml",
+                  "homeMeasure": "1 colher de sopa"
+              }, {
+                  "id": 7,
                   "name": "Sal",
                   "measure": "1g",
                   "homeMeasure": "1 sachê de sal"
               }, {
-                  "id": 6,
+                  "id": 8,
                   "name": "Louro seco",
                   "measure": "2g",
                   "homeMeasure": "4 folhas"
               }, {
-                  "id": 7,
+                  "id": 9,
                   "name": "Água",
                   "measure": "800ml",
                   "homeMeasure": "3 xícaras"
@@ -150,7 +160,7 @@
                   "content": "Um dia anterior ao preparo, deixe 1 xícara (200g) de feijão preto de molho em água;"
               }, {
                   "id": 2,
-                  "content": "No dia do preparo, escorra bem a água (e descarte) e coloque os grãos na paneja de pressão com água até cobri-los (e mais uns dois dedos acima) com 4 folhas de louro seco;"
+                  "content": "No dia do preparo, escorra bem a água (e descarte) e coloque os grãos na paneja de pressão com água até cobri-los (e mais uns dois dedos acima), coloque junto 1/4 de xícara (50 g) de cenoura e 1/4 de xícara (50 g) de beterraba inteirais descascadas com 4 folhas de louro seco;"
               }, {
                   "id": 3,
                   "content": "Leve ao fogo e após a panela chiar com a pressão, conte 30 minutos e desligue para que a pressão saia por inteiro;"
@@ -188,35 +198,35 @@
               }, {
                   "id": 2,
                   "measureDescription": "HC(g)",
-                  "measure": 301.59
+                  "measure": 308.73
               }, {
                   "id": 3,
                   "measureDescription": "Ptn (g)",
-                  "measure": 209.66
+                  "measure": 215.59
               }, {
                   "id": 4,
                   "measureDescription": "Lip (g)",
-                  "measure": 57.33
+                  "measure": 58.42
               }, {
                   "id": 5,
                   "measureDescription": "Vit. E (mg)",
-                  "measure": 34.59
+                  "measure": 34.72
               }, {
                   "id": 6,
                   "measureDescription": "Vit. A (mcg)",
-                  "measure": 0.13
+                  "measure": 0.28
               }, {
                   "id": 7,
                   "measureDescription": "Vit. C (mg)",
-                  "measure": 0
+                  "measure": 42.13
               }, {
                   "id": 8,
                   "measureDescription": "Zin (mg)",
-                  "measure": 0.14
+                  "measure": 0.3
               }, {
                   "id": 9,
                   "measureDescription": "Sel (mcg)",
-                  "measure": 2.38
+                  "measure": 2.4
               }
           ]
       }, {

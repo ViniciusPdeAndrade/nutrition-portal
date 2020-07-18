@@ -7,7 +7,7 @@ export const toViewInitial = () => {
             shows: {
                 viewInitial: true,
                 viewProfile: false,
-                viewNutrition: false,
+                viewNutrients: false,
                 viewTreatment: false,
                 viewRecipes: false
             }
@@ -22,7 +22,7 @@ export const toViewProfile = () => {
             shows: {
                 viewInitial: false,
                 viewProfile: true,
-                viewNutrition: false,
+                viewNutrients: false,
                 viewTreatment: false,
                 viewRecipes: false
             }
@@ -30,14 +30,14 @@ export const toViewProfile = () => {
     }
 }
 
-export const toViewNutrition = () => {
+export const toViewNutrients = () => {
     return {
-        type: visibleTypes.VISIBLE_NUTRITION,
+        type: visibleTypes.VISIBLE_NUTRIENTS,
         payload: {
             shows: {
                 viewInitial: false,
                 viewProfile: false,
-                viewNutrition: true,
+                viewNutrients: true,
                 viewTreatment: false,
                 viewRecipes: false
             }
@@ -52,7 +52,7 @@ export const toViewTreatment = () => {
             shows: {
                 viewInitial: false,
                 viewProfile: false,
-                viewNutrition: false,
+                viewNutrients: false,
                 viewTreatment: true,
                 viewRecipes: false
             }
@@ -67,7 +67,7 @@ export const toViewRecipes = () => {
           shows: {
               viewInitial: false,
               viewProfile: false,
-              viewNutrition: false,
+              viewNutrients: false,
               viewTreatment: false,
               viewRecipes: true
           }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Initial from '../initial/Initial';
 import Profile from '../profile/Profile';
-import Nutrition from '../nutrition/Nutrition';
+import Nutrients from '../nutrients/Nutrients';
 import Treatment from '../treatment/Treatment';
 import Recipes from '../recipes/Recipes';
 
@@ -14,7 +14,7 @@ const Body = ({ showMenu }) => {
             {showMenu.viewProfile && <Profile />}
             {showMenu.viewTreatment && <Treatment />}
             {showMenu.viewRecipes && <Recipes />}
-            {showMenu.viewNutrition && <Nutrition />}            
+            {showMenu.viewNutrients && <Nutrients />}            
         </div>
     );
 

@@ -9,7 +9,7 @@ const reducer = (_, action) => {
         case visibleTypes.VISIBLE_PROFILE:
             return action.payload.shows
 
-        case visibleTypes.VISIBLE_NUTRITION:
+        case visibleTypes.VISIBLE_NUTRIENTS:
             return action.payload.shows
 
         case visibleTypes.VISIBLE_TREATMENT:

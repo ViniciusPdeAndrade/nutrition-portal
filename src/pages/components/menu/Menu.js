@@ -18,8 +18,8 @@ const Menu = () => {
         dispatchContainer(visibleActions.toViewProfile())
     }, [dispatchContainer]);
 
-    const handleNutrition = useCallback(() => {
-        dispatchContainer(visibleActions.toViewNutrition())
+    const handleNutrients = useCallback(() => {
+        dispatchContainer(visibleActions.toViewNutrients())
     }, [dispatchContainer]);
 
     const handleTreatment = useCallback(() => {
@@ -37,7 +37,7 @@ const Menu = () => {
             <button className={styles.buttons} onClick={handleProfile}>Perfil</button>
             <button className={styles.buttons} onClick={handleTreatment}>Tratamentos</button>
             <button className={styles.buttons} onClick={handleRecipes}>Receitas</button>
-            <button className={styles.buttons} onClick={handleNutrition}>Nutrientes</button>
+            <button className={styles.buttons} onClick={handleNutrients}>Nutrientes</button>
           </div>
           <Body showMenu={show} />
         </div>

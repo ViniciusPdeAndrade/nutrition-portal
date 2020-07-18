@@ -1,12 +1,40 @@
 .container {
   position: relative;
   top: 0px;
-  width: 80%;
-  height: calc(100vh - 220px);
+  width: 90%;
   margin: 0 auto;
   border: none;
   border-radius: 10px;
   overflow-y: auto;
+  font-family: Roboto;
+}
+ 
+.container h1{
+  padding: 20px 0px 10px 15px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.container p{
+  float:  inline-start;
+  margin: 5px 10px 10px 30px;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 1.5em;
+}
+
+.container2 h2{
+  padding: 5px 0px 5px 30px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.container2 p{
+  float:  inline-start;
+  margin: 0px 10px 10px 35px;
+  font-size: 20px;
+  text-align: left;
+  text-indent: 1.5em; 
 }
 
 .container::-webkit-scrollbar-track {
