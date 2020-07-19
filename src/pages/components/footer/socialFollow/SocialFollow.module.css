@@ -2,14 +2,16 @@
   padding-top: 2px;
 }
 
-.container a {
+.container button {
   margin-right: 80%;
   transition: transform 250ms;
   display: inline-block;
   color: black;
+  background-color: transparent;
+  border: none;
 }
 
-.container a:hover{
+.container button:hover{
   transform: translateY(-2px);
   cursor: pointer;
 }

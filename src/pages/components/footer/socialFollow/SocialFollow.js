@@ -6,12 +6,12 @@ import styles from './SocialFollow.module.css';
 export default function SocialFollow(){
   return (
     <div className={styles.container}>
-      <a
+      <button
         onClick={()=> window.open("https://www.instagram.com/marisilvaf", "_blank")}
         className="instagram"
       >
         <FontAwesomeIcon icon={faInstagram} size="2x"/>
-      </a>
+      </button>
       
     </div>
   )
